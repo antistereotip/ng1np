@@ -1,5 +1,5 @@
 ## Engine UP - Ng1np (Inspirisano Nginx Serverom)
-### Engine UP Repositorijum. Jednostavan PHP Engine.
+### Engine UP Site Software. Jednostavan PHP Engine.
 
 - Jednostavan Engine napisan za početak u PHP-u. Veoma prost za korišćenje i vrlo proširiv sa podacima i slobodom da se stilizuje po potrebi. Stilovi se nalaze u inc/header.php a tu se i nalazi jednostavna funkcija za random prikazivanje slika na stranicama.
 
