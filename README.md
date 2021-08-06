@@ -1,5 +1,5 @@
-## Engine UP - ng1np  
-### Engine UP Repositorijum. Jednostavan PHP Engine.
+## "Engine UP - ng1np" 
+### "Engine UP" Repositorijum. Jednostavan PHP Engine.
 
 - Jednostavan Engine napisan za početak u PHP-u. Veoma prost za korišćenje i vrlo proširiv sa podacima i slobodom da se stilizuje po potrebi. Stilovi se nalaze u inc/header.php a tu se i nalazi jednostavna funkcija za random prikazivanje slika na stranicama.
 
@@ -7,7 +7,7 @@
 <img src="https://github.com/antistereotip/ng1np/blob/main/ng1np.png" width="200" />  
 </p>
 
-### Engine UP Logika:
+### "Engine UP" Logika:
 
 - set
 - lib
