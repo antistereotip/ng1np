@@ -1,7 +1,7 @@
 ## Engine UP - Ng1np
 
 <p>
-<img src="https://github.com/antistereotip/ng1np/blob/main/ng1np.png" width="200" />  
+<img src="https://github.com/antistereotip/ng1np/blob/main/logotip.png" width="170" />  
 </p>
 
 ### Engine UP Hack Matrix Modularni Softver. Jednostavan PHP Engine.
