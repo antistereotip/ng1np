@@ -34,7 +34,7 @@
 
 ### TODO:
 
-- Napisati paralelno kod engine up-a u LISP-u.
-- Napisati kod u Pyhton-u.
-- Napisati kod u ANSI C-u.
+- Napisati paralelno kod engine up-a u **LISP**-u.
+- Napisati kod u **Pyhton**-u.
+- Napisati kod u **ANSI C**-u.
 
