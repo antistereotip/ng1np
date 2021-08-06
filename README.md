@@ -13,3 +13,7 @@
 
 ### Keep It Simple Stupid
 
+- require 'set/class.php' and require $pages[$route] ...
+- $pages === Variables in arrays
+- page.tpl === smart templating from arrays (loops) 
+
