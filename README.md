@@ -1,6 +1,8 @@
 ## ng1np
 ### Engine UP Repositorium. Simple PHP Engine.
 
+- Jednostavan Engine napisan za pocetak u PHP-u. Veoma prost za koriscenje i vrlo prosiriv sa podacima i slobodom da se stilizuje po potrebi.
+
 <p>
 <img src="https://github.com/antistereotip/ng1np/blob/main/ng1np.png" width="200" />  
 </p>
