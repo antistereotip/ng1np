@@ -8,7 +8,7 @@
 <img src="https://github.com/antistereotip/ng1np/blob/main/ng1np.png" width="200" />  
 </p>
 
-### "Engine UP" Logika:
+### Engine UP Logika:
 
 - set
 - lib
