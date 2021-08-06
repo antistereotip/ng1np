@@ -1,7 +1,7 @@
 ## ng1np
 ### Engine UP Repositorium. Simple PHP Engine.
 
-- Jednostavan Engine napisan za pocetak u PHP-u. Veoma prost za koriscenje i vrlo prosiriv sa podacima i slobodom da se stilizuje po potrebi.
+- Jednostavan Engine napisan za pocetak u PHP-u. Veoma prost za koriscenje i vrlo prosiriv sa podacima i slobodom da se stilizuje po potrebi. Stilovi se nalaze u inc/header.php a tu se i nalazi jednostavna funkcija za random prikazivanje slika na stranicama.
 
 <p>
 <img src="https://github.com/antistereotip/ng1np/blob/main/ng1np.png" width="200" />  
