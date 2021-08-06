@@ -11,9 +11,9 @@
 
 ### Engine UP Logika:
 
-- set
-- lib
-- up
+- set (Setuj)
+- lib (Biblioteku)
+- up (Na Web)
 
 ### KISS - Keep It Simple Stupid (Zadrži glupavu jednostavnost)
 
