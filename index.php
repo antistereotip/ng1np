@@ -2,15 +2,16 @@
 #--------engine up---------------------------------------#
 #--------hightech - It's not a bug, it's a feature-------#
 
-#--------definisi root putanju--------#
+#------------------definisi root putanju-----------------#
 define('ROOT_DIR', realpath(dirname(__FILE__)) .'/');
+#-----------------pozovi klasu za renderovanje-----------#
 require 'set/class.php';
 
-#--------ruter-----------#
+#---------------------------ruter------------------------#
 $route = isset($_GET['route']) ? $_GET['route'] : '';
-//$route = $_GET['route'];
 
-#--------dozvoljene_stranice-----------#
+
+#-------------------dozvoljene_stranice------------------#
 $pages = array (
 'default' => './lib/default.php',
 'api' => './lib/api.php',
