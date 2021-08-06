@@ -32,7 +32,7 @@
 - Moduli će biti svedeni na minimum kodnog prostora, ostaviću više prostora za developere koji žele da ga prošire.
 - Matrica koja je prisutna u ovom kodu je multidimenzioni niz sa podacima gde je moguće proširiti niz još dublje.
 - https://antistereotip.net/next/#matrix
-- next engine je engine sledeće generacije i biće povezan sa engine up-om
+- **next** engine je engine sledeće generacije i biće povezan sa engine up-om
 
 ### TODO:
 
