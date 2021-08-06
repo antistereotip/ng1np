@@ -31,6 +31,20 @@
 - Pokušaću da razvijem **engine up** u potpuno autonomni engine koj može raditi kao matrica pisana u bilo kom jeziku. **set/** **lib/** **up/** je modularna matrica.
 - Moduli će biti svedeni na minimum kodnog prostora, ostaviću više prostora za developere koji žele da ga prošire.
 - Matrica koja je prisutna u ovom kodu je multidimenzioni niz sa podacima gde je moguće proširiti niz još dublje.
+- Matrice
+- Dvodimenzionalni niz se u praktičnom programiranju naziva i matrica. Niz može biti jednodimenzionalan (jednostavno niz), dvodimenzionalan (matrica - zbog analogije sa istoimenim matematičkim pojmom), i višedimenzionalan (kocka, četvorodimenzionalna kocka itd.).
+- Ako imamo matricu M dimenzija 2 x 8, njeni indexi su organizovani kao u tabeli navedenoj ispod:
+`M(1,1), M(1,2), M(1,3), M(1,4), M(1,5), M(1,6), M(1,7), M(1,8)
+M(2,1), M(2,2), M(2,3), M(2,4), M(2,5), M(2,6), M(2,7), M(2,8)`
+-Matrice s istim brojem redova i kolona nazivaju se kvadratne. Kvadratna matrica ima glavnu i sporednu dijagonalu. Primer kvadratne matrice na primeru ispod:
+`M(1,1), M(1,2), M(1,3), M(1,4)
+M(2,1), M(2,2), M(2,3), M(2,4)
+M(3,1), M(3,2), M(3,3), M(3,4)
+M(4,1), M(4,2), M(4,3), M(4,4)`
+- Šta kaže matematika ? Horizontalne linije u matrici se nazivaju vrstama, a vertikalne kolonama matrice. Matrica sa m vrsta i n kolona se naziva m-sa-n matricom (kaže se i zapisuje da je formata m×n) a m i n su dimenzije matrice.
+- Imamo dve matrice, vektor vrste, na primer: M = [1, 2, 3] - matrica 1 x 3, zatim R = [0, 2, 4] - matrica 1 x 3. Želimo da ih saberemo. Primer kako sabiramo matrice je ispod:
+`[1, 2, 3] + [0, 2, 4] = [ 1 + 0, 2 + 2, 3 + 4] = [1, 4, 7]`
+- Da bi ste razumeli matrice i njihovu upotrebu u računarstvu, moraćete dublje u zečiju rupu. Down The Rabbit Hole.
 
 ### TODO:
 
