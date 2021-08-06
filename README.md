@@ -4,7 +4,7 @@
 <img src="https://github.com/antistereotip/ng1np/blob/main/ng1np.png" width="200" />  
 </p>
 
-### Engine UP Site Software. Jednostavan PHP Engine.
+### Engine UP Hack Matrix Nodularni Softver. Jednostavan PHP Engine.
 
 - Jednostavan Engine napisan za početak u PHP-u. Veoma prost za korišćenje i vrlo proširiv sa podacima i slobodom da se stilizuje po potrebi. Stilovi se nalaze u inc/header.php a tu se i nalazi jednostavna funkcija za random prikazivanje slika na stranicama. Glavna logika engine-a je rad sa nizovima. Nizovi su multidimenzioni i sadrže podatke potrebne za web stranice. Nizovi mogu biti proširivi, a templejti se mogu proširiti dokle god ide dubina nizova. Korišćenjem smart .tpl logike dobija se čista forma pokretača iz nizova.
 
