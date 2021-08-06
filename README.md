@@ -7,6 +7,7 @@
 
 ### Engine UP Logic:
 
-- SET (include set/class.php) - Class for render
-- LIB (include lib/page.php) - Variables in arrays
-- UP (include up/page.tpl) - Templates for loops from arrays
+- SET (include set/class.php) - Class for render.
+- LIB (include lib/page.php) - Variables in arrays.
+- UP (include up/page.tpl) - displays sequences (arrays) through templates.
+
