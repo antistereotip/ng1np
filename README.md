@@ -10,7 +10,7 @@
 
 ### Upotreba:
 
-- cd /var/www/html
+- cd /var/www/html/
 - sudo git clone https://github.com/antistereotip/ng1np
 - sudo chown -R www-data:www-data /var/www/html/ng1np/
 - U browseru kucati sledeću adresu: http://localhost/ng1np/
