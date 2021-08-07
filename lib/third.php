@@ -9,7 +9,7 @@ $eng->description = 'Short description of wapi page';
 $eng->title = 'WAPI';
 $eng->sadrzaj = array( 
 	array(
-	"naslov" => "Wapi 1",
+	"naslov" => "Third 1",
 	"autor" => "Root",
 	"tema" => "Tema",
 	"tekst" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
@@ -20,7 +20,7 @@ $eng->sadrzaj = array(
                     and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
 	),
 	array(
-	"naslov" => "Wapi 2",
+	"naslov" => "Third 2",
         "autor" => "Avalon",
         "tema" => "Tema",
         "tekst" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
@@ -31,7 +31,7 @@ $eng->sadrzaj = array(
                     and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
 	),
 	array(
-	"naslov" => "Wapi 3",
+	"naslov" => "Third 3",
         "autor" => "Seeux",
         "tema" => "Tema",
         "tekst" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
