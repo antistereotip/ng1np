@@ -1,7 +1,7 @@
 ## Engine UP - Ng1np
 
 <p>
-<img src="https://github.com/antistereotip/ng1np/blob/main/pic/logotip.png" width="150" />  
+<img src="https://github.com/antistereotip/ng1np/blob/main/logotip.png" width="150" />  
 </p>
 
 > Nisam na ovaj svet dospeo da bih bio poražen. Neuspeh ne protiče mojim venama. Ja nisam ovca što čeka da je njen pastir podstakne. Ja sam lav koji odbija da zbori, hodi i spava sa ovcama. Istrajaću sve dok ne uspem.
