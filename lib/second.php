@@ -57,5 +57,5 @@ $eng->strana = array(
 
 
 #---render metoda---#
-echo $eng->render('up/api.tpl');
+echo $eng->render('up/second.tpl');
 
