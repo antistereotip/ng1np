@@ -14,8 +14,8 @@ $route = isset($_GET['route']) ? $_GET['route'] : '';
 #-------------------dozvoljene_stranice------------------#
 $pages = array (
 'default' => './lib/default.php',
-'api' => './lib/second.php',
-'wapi' => './lib/third.php'
+'second' => './lib/second.php',
+'third' => './lib/third.php'
 );
 
 #------proverava da li je string u nizu veci od nule i da li je u nizu------#
