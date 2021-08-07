@@ -4,6 +4,8 @@
 <img src="https://github.com/antistereotip/ng1np/blob/main/pic/logotip.png" width="150" />  
 </p>
 
+- Nisam na ovaj svet dospeo da bih bio poražen. Neuspeh ne protiče mojim venama. Ja nisam ovca što čeka da je njen pastir podstakne. Ja sam lav koji odbija da zbori, hodi i spava sa ovcama. Istrajaću sve dok ne uspem.
+
 ### Engine UP Hack Matrix Modularni Softver. Jednostavan PHP Engine.
 
 - Jednostavan Engine napisan za početak u PHP-u. Veoma prost za korišćenje i vrlo proširiv sa podacima i slobodom da se stilizuje po potrebi. Stilovi se nalaze u inc/header.php a tu se i nalazi jednostavna funkcija za random prikazivanje slika na stranicama. Glavna logika engine-a je **rad sa nizovima**. Nizovi su multidimenzioni i sadrže podatke potrebne za web stranice. Nizovi mogu biti proširivi, a templejti se mogu proširiti dokle god ide dubina nizova. Korišćenjem smart .tpl logike dobija se čista forma pokretača iz nizova.
