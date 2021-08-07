@@ -9,7 +9,7 @@ $eng->description = 'Short description of api page';
 $eng->title = 'API';
 $eng->sadrzaj = array( 
 	array(
-	"naslov" => "Api 1",
+	"naslov" => "Second 1",
 	"autor" => "Smurf",
 	"tema" => "Tema",
 	"tekst" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
@@ -20,7 +20,7 @@ $eng->sadrzaj = array(
                     and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
 	),
 	array(
-	"naslov" => "Api 2",
+	"naslov" => "Second 2",
         "autor" => "Att4ck",
         "tema" => "Tema",
         "tekst" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
@@ -31,7 +31,7 @@ $eng->sadrzaj = array(
                     and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
 	),
 	array(
-	"naslov" => "Api 3",
+	"naslov" => "Second 3",
         "autor" => "AS6",
         "tema" => "Tema",
         "tekst" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
