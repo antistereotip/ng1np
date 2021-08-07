@@ -56,5 +56,5 @@ $eng->strana = array(
 );
 
 #---render metoda---#
-echo $eng->render('up/wapi.tpl');
+echo $eng->render('up/third.tpl');
 
