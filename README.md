@@ -1,5 +1,7 @@
 ## Engine UP - Ng1np
 
+<img src="https://img.shields.io/github/downloads/antistereotip/ng1np/total.svg" />
+
 <p>
 <img src="https://github.com/antistereotip/ng1np/blob/main/logotip.png" width="150" />  
 </p>
