@@ -1,5 +1,7 @@
 ## Engine UP - Ng1np
 
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+
 <p>
 <img src="https://github.com/antistereotip/ng1np/blob/main/logotip.png" width="150" />  
 </p>
