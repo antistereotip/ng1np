@@ -1,4 +1,6 @@
 <?php
+#--------funkcije engina-----------#
+
 #--------racuna velicinu foldera-----------#
 function folderSize($dir){
 $count_size = 0;
