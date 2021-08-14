@@ -22,6 +22,13 @@
 - sudo chown -R www-data:www-data /var/www/html/ng1np/
 - U browseru kucati sledeću adresu: http://localhost/ng1np/
 
+### Git Workaround
+- cd /home/user/Public/github/
+- sudo rm -rf ng1np/
+- git clone https://github.com/antistereotip/ng1np
+- sudo rm -rf /var/www/html/ng1np/
+- sudo cp -pr /home/user/Public/github/ng1np/ /var/www/html/
+- sudo chown -R www-data:www-data /var/www/html/
 
 ### Engine UP Logika:
 
