@@ -9,14 +9,14 @@ ob_start("kompresija");
 <?php
 echo '<p>';
 $folder = 'inc/';
-echo 'Size of folder /inc: ' . folderSize($folder) . ' bytes';
+echo '* Size of folder /inc: ' . folderSize($folder) . ' bytes';
 echo '</p>';
 ?>
 
 <?php
 echo '<p>';
 $file = 'up/fifth.tpl';
-echo 'Size of file /up/fifth.tpl: ' . $filesize = filesize($file) . ' bytes';
+echo '* Size of file /up/fifth.tpl: ' . $filesize = filesize($file) . ' bytes';
 echo '</p>';
 ?>
 
