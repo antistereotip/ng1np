@@ -10,7 +10,7 @@ ob_start("kompresija");
 <?php
 echo '<p>';
 $folder = "up/";
-echo 'up:' . folderSize($folder);
+echo 'Size of folder /up:' . folderSize($folder);
 echo '</p>';
 ?>
 
