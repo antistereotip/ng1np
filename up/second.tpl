@@ -10,20 +10,20 @@ ob_start("kompresija");
 <section>
 <?php foreach ($this->sadrzaj as $row) { ?>
 	<div>
-	<h1><?php echo $row['naslov']; ?></h1>
-	<h2>Autor: <?php echo $row['autor']; ?><h2>
-	<h2>Tema: <?php echo $row['tema']; ?></h2>
-	<p><?php echo $row['tekst']; ?></p>
-	</div>	
+	<h1><?php echo $row['proces1']; ?></h1>
+	<h2>Autor: <?php echo $row['proces2']; ?><h2>
+	<h2>Tema: <?php echo $row['proces3']; ?></h2>
+	<p><?php echo $row['proces4']; ?></p>
+	</div>		
 <?php } ?>
 </section>
 
 <aside>
 <?php foreach ($this->strana as $row) { ?>
         <div>
-        <h1><?php echo $row['naslov']; ?></h1>
-        <h2><?php echo $row['autor']; ?><h2>
-        <p><a href="<?php echo $row['link']; ?>"><?php echo $row['link']; ?></a></p>
+        <h1><?php echo $row['server1']; ?></h1>
+        <h2><?php echo $row['server2']; ?><h2>
+        <p><a href="<?php echo $row['server3']; ?>"><?php echo $row['server3']; ?></a></p>
         </div>
 <?php } ?>
 </aside>
