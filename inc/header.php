@@ -11,8 +11,8 @@
 </head>
 <body>
 <h1>All About Universe. Kingest Regards. Admin.</h1>
-<h2>Engine UP. Simple PHP Engine - ng1np.</h2>
-<p><marquee>Everything You Should Know About Universe. Ask ng1np Admin. Nick: hightech.</marquee></p>
+<h2>Engine UP. Simple PHP Engine - Ng1np.</h2>
+<p><marquee>Everything You Should Know About Universe. Ask ng1np Admin. Nick: hightech. E-mail: threewhiterabbits [at] protonmail [dot] com</marquee></p>
 <?php
 $dir = "./pic/";
 #---ucitavanje vrednosti iz foldera u niz---#
