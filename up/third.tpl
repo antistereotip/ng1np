@@ -17,7 +17,7 @@ echo '</p>';
 <?php
 echo '<p>';
 $file = './up/third.tpl';
-echo 'Size of file ./up/third.tpl: ' . $filesize = filesize($file); . ' bytes';
+echo 'Size of file ./up/third.tpl: ' . $filesize = filesize($file) . ' bytes';
 echo '</p>';
 ?>
 
