@@ -4,7 +4,7 @@ $eng = new ng1np();
 #---varijable---#
 $eng->charset = 'UTF-8';
 $eng->keywords = '0110, 0000, 1111, 1001';
-$eng->author = 'hightech';
+$eng->author = 'rootwalker';
 $eng->description = '0110';
 $eng->title = '1001';
 
