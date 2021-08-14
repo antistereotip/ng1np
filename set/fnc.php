@@ -29,3 +29,20 @@ function count_pages() {
   $count = $xmlDoc->getElementsByTagName('loc')->length; 
   echo  '(pages: ' . $count . ')';
 }
+
+
+#--------kompresuj_stranicu---------#
+function KompresujStranu($Baferuj) {
+  $Pretrazi = array(
+        '/\>[^\S ]+/s',  // ocisti razmake izmedju tagova, izuzev spejsa
+        '/[^\S ]+\</s',  // ocisti razmake pre tagova, izuzev spejsa
+        '/(\s)+/s'       // skrati vise spojenih spejsova
+    );
+  $Zameni = array(
+        '>',
+        '<',
+        '\\1'
+    );
+    return preg_replace($Pretrazi, $Zameni, $Baferuj);
+}
+
