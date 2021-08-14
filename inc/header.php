@@ -21,8 +21,8 @@ $pictures = glob($dir."*.png");
 shuffle($pictures);
 
 #---prikazivanje 4 random slike iz niza $pictures---#
-for ($i = 0; $i < 4; $i++) {
-    echo "<img src='". $pictures[$i] ."' height='150'/>";
+for ($i = 0; $i < 5; $i++) {
+    echo "<img src='". $pictures[$i] ."' height='130'/>";
 }
 ?>
 <p></p>
