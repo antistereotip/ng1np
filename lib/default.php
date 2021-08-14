@@ -32,14 +32,14 @@ $eng->sadrzaj = array(
 
 $eng->strana = array( 
         array(
-        "server1" => "0000",
+        "server1" => "1000",
         "server2" => "0111",
-        "server3" => "0001"
+        "server3" => "0000"
         ),
         array(
-        "server1" => "1111",
+        "server1" => "1101",
         "server2" => "0101",
-        "server3" => "1101"
+        "server3" => "1111"
         )
 );
 
