@@ -10,10 +10,10 @@ ob_start("kompresija");
 <section>
 <?php foreach ($this->sadrzaj as $row) { ?>
 	<div>
-	<h1><?php echo $row['proces1']; ?></h1>
-	<h2>Autor: <?php echo $row['proces2']; ?><h2>
-	<h2>Tema: <?php echo $row['proces3']; ?></h2>
-	<p><?php echo $row['proces4']; ?></p>
+	<h1>Proces 1: <?php echo $row['proces1']; ?></h1>
+	<h2>Proces 2: <?php echo $row['proces2']; ?><h2>
+	<h2>Proces 3: <?php echo $row['proces3']; ?></h2>
+	<p>Proces 4: <?php echo $row['proces4']; ?></p>
 	</div>		
 <?php } ?>
 </section>
@@ -21,9 +21,9 @@ ob_start("kompresija");
 <aside>
 <?php foreach ($this->strana as $row) { ?>
         <div>
-        <h1><?php echo $row['server1']; ?></h1>
-        <h2><?php echo $row['server2']; ?><h2>
-        <p><a href="<?php echo $row['server3']; ?>"><?php echo $row['server3']; ?></a></p>
+        <h1>Server 1: <?php echo $row['server1']; ?></h1>
+        <h2>Server 2: <?php echo $row['server2']; ?><h2>
+        <p>Server 3: <a href="<?php echo $row['server3']; ?>"><?php echo $row['server3']; ?></a></p>
         </div>
 <?php } ?>
 </aside>
