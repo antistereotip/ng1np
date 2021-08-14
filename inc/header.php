@@ -18,7 +18,7 @@ footer {width: 98%; padding: 1%; float: left;}
 
 </head>
 <body>
-<h1>Universe</h1>
+<h1>All About Universe</h1>
 <?php
 $dir = "./pic/";
 #---ucitavanje vrednosti iz foldera u niz---#
