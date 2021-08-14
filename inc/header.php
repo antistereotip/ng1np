@@ -10,7 +10,8 @@
 <link rel="stylesheet" href="inc/stil.css">
 </head>
 <body>
-<h1>All About Universe. Regards. Admin.</h1>
+<h1>All About Universe. Kingest Regards. Admin.</h1>
+<p><marquee>Everything You Should Know About Universe. Ask ng1np Admin. Nick: hightech</marquee></p>
 <?php
 $dir = "./pic/";
 #---ucitavanje vrednosti iz foldera u niz---#
