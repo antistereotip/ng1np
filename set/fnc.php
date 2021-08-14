@@ -22,36 +22,22 @@ return $count_size;
 //$folder_name = "./";
 //echo folderSize($folder_name);
 
-#--------broji_stranice_u_xml_mapi-----------#
-function count_pages() {
-  $xmlDoc=new DOMDocument(); 
-  $xmlDoc->load("sitemap.xml");
-  $count = $xmlDoc->getElementsByTagName('loc')->length; 
-  echo  '(pages: ' . $count . ')';
-}
-
-
 
 #--------kompresuj_stranicu---------#
-
 function kompresija($buffer) {
-
     $pretrazi = array(
         '/\>[^\S ]+/s',     // strip whitespaces after tags, except space
         '/[^\S ]+\</s',     // strip whitespaces before tags, except space
         '/(\s)+/s',         // shorten multiple whitespace sequences
         '/<!--(.|\s)*?-->/' // Remove HTML comments
     );
-
     $zameni = array(
         '>',
         '<',
         '\\1',
         ''
     );
-
     $buffer = preg_replace($pretrazi, $zameni, $buffer);
-
     return $buffer;
 }
 
