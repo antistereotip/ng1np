@@ -14,6 +14,13 @@ echo 'Size of folder /lib: ' . folderSize($folder) . ' bytes';
 echo '</p>';
 ?>
 
+<?php
+echo '<p>';
+$file = './up/second.tpl';
+echo 'Size of file ./up/second.tpl: ' . $filesize = filesize($file); . ' bytes';
+echo '</p>';
+?>
+
 <section>
 <?php foreach ($this->sadrzaj as $row) { ?>
 	<div>
