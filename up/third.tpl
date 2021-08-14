@@ -9,8 +9,8 @@ ob_start("kompresija");
 
 <?php
 echo '<p>';
-$folder_name = "pic/";
-echo folderSize($folder_name);
+$folder = "pic/";
+echo folderSize($folder);
 echo '</p>';
 ?>
 
