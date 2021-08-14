@@ -16,7 +16,8 @@ $pages = array (
 'default' => './lib/default.php',
 'second' => './lib/second.php',
 'third' => './lib/third.php',
-'fourth' => './lib/fourth.php'
+'fourth' => './lib/fourth.php',
+'fifth' => './lib/fifth.php'
 );
 
 #------proverava da li je string u nizu veci od nule i da li je u nizu------#
