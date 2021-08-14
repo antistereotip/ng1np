@@ -3,10 +3,10 @@
 $eng = new ng1np();
 #---varijable---#
 $eng->charset = 'UTF-8';
-$eng->keywords = 'third, third page, page';
+$eng->keywords = '0110, 0000, 1111, 1001';
 $eng->author = 'hightech';
-$eng->description = 'Short description of wapi page';
-$eng->title = 'THIRD';
+$eng->description = '0110';
+$eng->title = '1001';
 
 $eng->sadrzaj = array( 
 	array(
