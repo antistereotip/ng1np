@@ -9,6 +9,13 @@
 <img src="https://github.com/antistereotip/ng1np/blob/main/logotip.png" width="150" />  
 </p>
 
+> Jednom, Kad dođeš, Ispričaću ti priču o čekanju, Nadanju, 
+I verovanju, Pogrešnim putevima i lutanju, O ne odustajanju, 
+O snovima, I sanjarenjima, Ispričaću ti priču o čoveku, 
+Koji je mogao drugačije, Ali nije hteo, Jednom, Kad dođeš, 
+I čujes, Verujem osmehnućeš se, Baš tom čoveku ...
+B.I.
+
 ## Hack It
 
 ### Engine UP Hack Matrix Modularni Softver. Jednostavan PHP Engine.
