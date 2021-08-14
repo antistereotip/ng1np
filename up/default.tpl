@@ -6,11 +6,10 @@ ob_start("kompresija");
 
 <?php include 'inc/header.php'; ?>
 <?php include 'inc/meni.php'; ?>
-
 <?php
 echo '<p>';
-$folder = "set/";
-echo 'Size of folder /set:' . folderSize($folder);
+$folder = 'set/';
+echo 'Size of folder /set: ' . folderSize($folder) . ' bytes';
 echo '</p>';
 ?>
 
