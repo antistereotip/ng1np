@@ -23,10 +23,10 @@ echo '</p>';
 <section>
 <?php foreach ($this->sadrzaj as $row) { ?>
 	<div>
-	<h1>&#8592; Proces 1: <?php echo $row['proces1']; ?></h1>
-	<h2>&#8592; Proces 2: <?php echo $row['proces2']; ?><h2>
-	<h3>&#8592; Proces 3: <?php echo $row['proces3']; ?></h3>
-	<h4>&#8592; Proces 4: <?php echo $row['proces4']; ?></h4>
+	&#8592;<h1> Proces 1: <?php echo $row['proces1']; ?></h1>
+	&#8592;<h2> Proces 2: <?php echo $row['proces2']; ?><h2>
+	&#8592;<h3> Proces 3: <?php echo $row['proces3']; ?></h3>
+	&#8592;<h4> Proces 4: <?php echo $row['proces4']; ?></h4>
 	</div>		
 <?php } ?>
 </section>
@@ -34,9 +34,9 @@ echo '</p>';
 <aside>
 <?php foreach ($this->strana as $row) { ?>
         <div>
-        <h1>&#8592; Server 1: <?php echo $row['server1']; ?></h1>
-        <h2>&#8592; Server 2: <?php echo $row['server2']; ?><h2>
-        <h3>&#8592; Server 3: <a href="<?php echo '?route='.$row['server3']; ?>"><?php echo $row['server3']; ?></a></h3>
+        &#8592;<h1> Server 1: <?php echo $row['server1']; ?></h1>
+        &#8592;<h2> Server 2: <?php echo $row['server2']; ?><h2>
+        &#8592;<h3> Server 3: <a href="<?php echo '?route='.$row['server3']; ?>"><?php echo $row['server3']; ?></a></h3>
         </div>
 <?php } ?>
 </aside>
