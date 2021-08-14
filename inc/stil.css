@@ -4,6 +4,7 @@ aside {width: 38%; padding: 1%; float: left;}
 nav li { display: inline; } 
 nav li a {color: yellow;}
 footer {width: 98%; padding: 1%; float: left;} 
+p {font-size: 1.3em; color: orangered;}
 h1 {color: #17f118;}
 h2 {color: #17f448;}
 h3 {color: #17f888;}
