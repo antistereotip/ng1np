@@ -7,6 +7,13 @@ ob_start("kompresija");
 <?php include 'inc/header.php'; ?>
 <?php include 'inc/meni.php'; ?>
 
+<?php
+echo '<p>';
+$folder_name = "pic/";
+echo folderSize($folder_name);
+echo '</p>';
+?>
+
 <section>
 <?php foreach ($this->sadrzaj as $row) { ?>
 	<div>
