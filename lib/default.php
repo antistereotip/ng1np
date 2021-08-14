@@ -11,50 +11,35 @@ $eng->title = 'Default';
 
 $eng->sadrzaj = array( 
 	array(
-	"naslov" => "Default 1",
-	"autor" => "Hightech",
-	"tema" => "Tema",
-	"tekst" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
-		    been the industry's standard dummy text ever since the 1500s, when an unknown printer took 
-		    a galley of type and scrambled it to make a type specimen book. It has survived not only 
-		    five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-		    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-		    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+	"proces1" => "0000",
+	"proces2" => "0110",
+	"proces3" => "1001",
+	"proces4" => "1111"
 	),
 	array(
-	"naslov" => "Default 2",
-        "autor" => "Rootwalker",
-        "tema" => "Tema",
-        "tekst" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
-                    been the industry's standard dummy text ever since the 1500s, when an unknown printer took 
-                    a galley of type and scrambled it to make a type specimen book. It has survived not only 
-                    five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+	"proces1" => "1001",
+        "proces2" => "1111",
+        "proces3" => "0110",
+        "proces4" => "0000"
 	),
 	array(
-	"naslov" => "Default 3",
-        "autor" => "Antistereotip",
-        "tema" => "Tema",
-        "tekst" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
-                    been the industry's standard dummy text ever since the 1500s, when an unknown printer took 
-                    a galley of type and scrambled it to make a type specimen book. It has survived not only 
-                    five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+	"proces1" => "0000",
+        "proces2" => "1111",
+        "proces3" => "0110",
+        "proces4" => "1001"
 	)
 );
 
 $eng->strana = array( 
         array(
-        "naslov" => "Sidebar HT",
-        "autor" => "Hightech",
-        "link" => "https://antistereotip.net"
+        "server1" => "1000",
+        "server2" => "0111",
+        "server3" => "0001"
         ),
         array(
-        "naslov" => "Sidebar HT 2",
-        "autor" => "Rootwalker",
-        "link" => "https://usk.rs"
+        "server1" => "0100",
+        "server2" => "0101",
+        "server3" => "1101"
         )
 );
 
