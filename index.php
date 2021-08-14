@@ -15,7 +15,8 @@ $route = isset($_GET['route']) ? $_GET['route'] : '';
 $pages = array (
 'default' => './lib/default.php',
 'second' => './lib/second.php',
-'third' => './lib/third.php'
+'second' => './lib/third.php',
+'third' => './lib/fourth.php'
 );
 
 #------proverava da li je string u nizu veci od nule i da li je u nizu------#
