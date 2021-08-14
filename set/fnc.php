@@ -31,18 +31,30 @@ function count_pages() {
 }
 
 
+
 #--------kompresuj_stranicu---------#
-function KompresujStranu($Baferuj) {
-  $Pretrazi = array(
-        '/\>[^\S ]+/s',  // ocisti razmake izmedju tagova, izuzev spejsa
-        '/[^\S ]+\</s',  // ocisti razmake pre tagova, izuzev spejsa
-        '/(\s)+/s'       // skrati vise spojenih spejsova
+
+function kompresija($buffer) {
+
+    $pretrazi = array(
+        '/\>[^\S ]+/s',     // strip whitespaces after tags, except space
+        '/[^\S ]+\</s',     // strip whitespaces before tags, except space
+        '/(\s)+/s',         // shorten multiple whitespace sequences
+        '/<!--(.|\s)*?-->/' // Remove HTML comments
     );
-  $Zameni = array(
+
+    $zameni = array(
         '>',
         '<',
-        '\\1'
+        '\\1',
+        ''
     );
-    return preg_replace($Pretrazi, $Zameni, $Baferuj);
+
+    $buffer = preg_replace($pretrazi, $zameni, $buffer);
+
+    return $buffer;
 }
+
+//ob_start("kompresija");
+
 
