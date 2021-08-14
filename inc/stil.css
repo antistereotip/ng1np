@@ -1,4 +1,4 @@
-body {background: #222;}
+body {background: #222; margin 1% auto; padding: 1%;}
 section {width: 58%; padding:1%; float: left;} 
 aside {width: 38%; padding: 1%; float: left;} 
 nav li { display: inline; padding: 0.5%;} 
