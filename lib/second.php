@@ -3,10 +3,10 @@
 $eng = new ng1np();
 #---varijable---#
 $eng->charset = 'UTF-8';
-$eng->keywords = 'second, second page, page';
+$eng->keywords = '1111, 0110, 1001, 0000';
 $eng->author = 'hightech';
-$eng->description = 'Short description of api page';
-$eng->title = 'SECOND';
+$eng->description = '1111';
+$eng->title = '1111';
 
 $eng->sadrzaj = array( 
 	array(
