@@ -21,11 +21,6 @@ echo 'Size of file /up/third.tpl: ' . $filesize = filesize($file) . ' bytes';
 echo '</p>';
 ?>
 
-$file = '/path/to/your/file';
-$filesize = filesize($file);
-
-echo "The size of your file is $filesize bytes.";
-
 <section>
 <?php foreach ($this->sadrzaj as $row) { ?>
 	<div>
