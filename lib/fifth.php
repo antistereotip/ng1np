@@ -11,9 +11,9 @@ $eng->title = '0000';
 
 $eng->sadrzaj = array( 
 	array(
-	"proces1" => "1001",
+	"proces1" => "0000",
 	"proces2" => "0110",
-	"proces3" => "0000",
+	"proces3" => "1001",
 	"proces4" => "1111"
 	),
 	array(
