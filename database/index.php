@@ -16,9 +16,9 @@ else {
   }
   else {
     //echo 'Nema rezultata';
-    echo '<div style="width: 80%;padding:10%; margin: auto;color:#17f118;background:#111;"><form>	
+    echo '<form>	
         <input name="up" method="get" type="search" placeholder="Ukucaj komandu " autofocus>
         <input type="submit" value="UNESI" class="button">
-      </form></div>';
+      </form>';
   }
 }
