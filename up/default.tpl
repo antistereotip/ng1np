@@ -13,6 +13,13 @@ echo 'Size of folder /set: ' . folderSize($folder) . ' bytes';
 echo '</p>';
 ?>
 
+<?php
+echo '<p>';
+$file = './up/default.tpl';
+echo 'Size of file ./up/default.tpl: ' . $filesize = filesize($file); . ' bytes';
+echo '</p>';
+?>
+
 <section>
 <?php foreach ($this->sadrzaj as $row) { ?>
 	<div>
