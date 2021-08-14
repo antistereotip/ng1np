@@ -10,14 +10,8 @@ ob_start("kompresija");
 <?php
 echo '<p>';
 $folder = "up/";
-echo 'Size of folder /up:' . folderSize($folder);
-echo '</p><p>';
-
-$file = 'up/';
-$filesize = foldersize($file);
-
-echo "The size of your file is $filesize bytes.</p>";
-
+echo 'Size of folder /up: ' . folderSize($folder) . ' bytes';
+echo '</p>';
 ?>
 
 <section>
