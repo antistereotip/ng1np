@@ -1,7 +1,7 @@
 body {background: #222;}
 section {width: 58%; padding:1%; float: left;} 
 aside {width: 38%; padding: 1%; float: left;} 
-nav li { display: inline; } 
+nav li { display: inline; padding: 0.5%;} 
 nav li a {color: yellow;}
 footer {width: 98%; padding: 1%; float: left;} 
 p {font-size: 1.3em; color: orangered;}
