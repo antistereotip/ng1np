@@ -1,7 +1,11 @@
+<?php
+include 'set/fnc.php';
+#--------pocetak kompresije---------#
+ob_start("kompresija");
+?>
+
 <?php include 'inc/header.php'; ?>
 <?php include 'inc/meni.php'; ?>
-
-
 
 <section>
 <?php foreach ($this->sadrzaj as $row) { ?>
