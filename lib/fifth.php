@@ -18,15 +18,15 @@ $eng->sadrzaj = array(
 	),
 	array(
 	"proces1" => "1111",
-  "proces2" => "1001",
-  "proces3" => "0000",
-  "proces4" => "0110"
+  	"proces2" => "1001",
+  	"proces3" => "0000",
+  	"proces4" => "0110"
 	),
 	array(
 	"proces1" => "0110",
-  "proces2" => "1001",
-  "proces3" => "1111",
-  "proces4" => "0000"
+  	"proces2" => "1001",
+  	"proces3" => "1111",
+  	"proces4" => "0000"
 	)
 );
 
