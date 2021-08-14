@@ -4,10 +4,10 @@ $eng = new ng1np();
 
 #---varijable---#
 $eng->charset = 'UTF-8';
-$eng->keywords = 'default, default page, page';
+$eng->keywords = '0000, 0110, 1001, 1111';
 $eng->author = 'hightech';
-$eng->description = 'Short description of default page';
-$eng->title = 'Default';
+$eng->description = '0000';
+$eng->title = '0000';
 
 $eng->sadrzaj = array( 
 	array(
