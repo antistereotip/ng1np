@@ -1,5 +1,5 @@
 <footer>
-<p>Antistereotip @ 2021 @ Eternety @ ws1 @ hightech</p>
+<p>ng1np @ 2013 hightech</p>
 </footer>
 </body>
 </html>
