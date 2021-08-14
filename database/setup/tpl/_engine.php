@@ -23,14 +23,12 @@
       </form>
     </header>
 
-    <?php 
-      echo '<div style="width: 80%;padding:10%; margin: auto;color:#17f118;background:#111;">';
+    <?php
       echo '<h2>' . $row->title . '</h2>'; 
       echo '<p>' . $row->url . '</p>'; 
       echo '<img src="' . $row->img . '"><br>'; 
       echo $row->desc . '<br>'; 
       echo $row->date . '<br>';
-      echo '</div>';
     ?>
   </body>
 </html>
