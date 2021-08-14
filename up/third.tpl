@@ -30,7 +30,7 @@ echo '</p>';
         <div>
         <h1>Server 1: <?php echo $row['server1']; ?></h1>
         <h2>Server 2: <?php echo $row['server2']; ?><h2>
-        <p>Server 3: <a href="<?php echo $row['server3']; ?>"><?php echo $row['server3']; ?></a></p>
+        <p>Server 3: <a href="<?php echo '?route='.$row['server3']; ?>"><?php echo $row['server3']; ?></a></p>
         </div>
 <?php } ?>
 </aside>
