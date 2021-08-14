@@ -7,53 +7,41 @@ $eng->keywords = 'third, third page, page';
 $eng->author = 'hightech';
 $eng->description = 'Short description of wapi page';
 $eng->title = 'THIRD';
+
 $eng->sadrzaj = array( 
 	array(
-	"naslov" => "Third 1",
-	"autor" => "Root",
-	"tema" => "Tema",
-	"tekst" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
-                    been the industry's standard dummy text ever since the 1500s, when an unknown printer took 
-                    a galley of type and scrambled it to make a type specimen book. It has survived not only 
-                    five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+	"proces1" => "0110",
+	"proces2" => "1111",
+	"proces3" => "1001",
+	"proces4" => "0000"
 	),
 	array(
-	"naslov" => "Third 2",
-        "autor" => "Avalon",
-        "tema" => "Tema",
-        "tekst" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
-                    been the industry's standard dummy text ever since the 1500s, when an unknown printer took 
-                    a galley of type and scrambled it to make a type specimen book. It has survived not only 
-                    five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+	"proces1" => "1111",
+        "proces2" => "0110",
+        "proces3" => "1001",
+        "proces4" => "0000"
 	),
 	array(
-	"naslov" => "Third 3",
-        "autor" => "Seeux",
-        "tema" => "Tema",
-        "tekst" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
-                    been the industry's standard dummy text ever since the 1500s, when an unknown printer took 
-                    a galley of type and scrambled it to make a type specimen book. It has survived not only 
-                    five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+	"proces1" => "1001",
+        "proces2" => "0000",
+        "proces3" => "0110",
+        "proces4" => "1111"
 	)
 );
+
 $eng->strana = array( 
         array(
-        "naslov" => "Sidebar AS 1",
-        "autor" => "Hightech",
-        "link" => "https://antistereotip.github.io/ng1np.html"
+        "server1" => "0010",
+        "server2" => "1100",
+        "server3" => "1010"
         ),
         array(
-        "naslov" => "Sidebar AS 2",
-        "autor" => "Rootwalker",
-        "link" => "https://antistereotip.github.io"
+        "server1" => "0011",
+        "server2" => "1101",
+        "server3" => "0101"
         )
 );
+
 
 #---render metoda---#
 echo $eng->render('up/third.tpl');
