@@ -7,18 +7,10 @@
 <meta name="author" content="<?php echo $this->author; ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title><?php echo $this->title; ?></title>
-<style>
-section {width: 58%; padding:1%; float: left;}
-aside {width: 38%; padding: 1%; float: left;}
-nav li {
-  display: inline;
-}
-footer {width: 98%; padding: 1%; float: left;}
-</style>
-
+<link rel="stylesheet" href="inc/stil.css">
 </head>
 <body>
-<h1>All About Universe</h1>
+<h1>All About Universe. Regards. Admin.</h1>
 <?php
 $dir = "./pic/";
 #---ucitavanje vrednosti iz foldera u niz---#
