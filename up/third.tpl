@@ -1,11 +1,3 @@
-<?php include 'set/fnc.php'; ?>
-
-<?php
-#--------ukljuci nivo kompresije---------#
-if (@ini_set('zlib.output_compression',TRUE) || @ini_set('zlib.output_compression_level',2)) 
-                        {ob_start('KompresujStranu');} else { ob_start('ob_gzhandler');}
-?>
-
 <?php include 'inc/header.php'; ?>
 <?php include 'inc/meni.php'; ?>
 
@@ -31,8 +23,3 @@ if (@ini_set('zlib.output_compression',TRUE) || @ini_set('zlib.output_compressio
 </aside>
 
 <?php include 'inc/footer.php'; ?>
-
-<?php 
-#--------kraj kompresije---------#
-if(extension_loaded('zlib')) { ob_end_flush(); } 
-?>
