@@ -9,8 +9,8 @@ ob_start("kompresija");
 
 <?php
 echo '<p>';
-$folder = "lib/";
-echo 'Size of folder /lib:' . folderSize($folder);
+$folder = 'lib/';
+echo 'Size of folder /lib: ' . folderSize($folder) . ' bytes';
 echo '</p>';
 ?>
 
