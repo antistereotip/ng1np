@@ -1,5 +1,5 @@
 <footer>
-<p>ng1np @ 2013 hightech</p>
+<p style="color: #fff;">Ng1np @ 2013 - 2021 @ hightech</p>
 </footer>
 </body>
 </html>
