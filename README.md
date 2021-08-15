@@ -40,6 +40,7 @@ sudo chown -R www-data:www-data /var/www/html/ng1np/
 
 - U browseru kucati sledeću adresu: http://localhost/ng1np/
 
+
 #### Github Zaobilazno Rešenje (Please don't do this)
 
 - Ukoliko radite u Web GUI okruženju ova prečica može da štedi vreme ukoliko prepoznajete obrazac. Ovaj princip se ne preporučuje. Ovo je samo podsetnik komandi kao "hardcode". Ovaj metod se preporučuje izuzetno lenjim ljudima od trenutka kada je Github uneo access token umesto lozinke :)
@@ -52,6 +53,7 @@ sudo rm -rf /var/www/html/ng1np/
 sudo cp -pr /home/user/Public/github/ng1np/ /var/www/html/
 sudo chown -R www-data:www-data /var/www/html/
 </pre>
+
 
 ### Engine UP Logika:
 
@@ -68,8 +70,7 @@ sudo chown -R www-data:www-data /var/www/html/
 - Pokušaću da razvijem **engine up** u potpuno autonomni engine koj može raditi kao matrica pisana u bilo kom jeziku. **set/** **lib/** **up/** je modularna matrica.
 - Moduli će biti svedeni na minimum kodnog prostora, ostaviću više prostora za developere koji žele da ga prošire.
 - Matrica koja je prisutna u ovom kodu je multidimenzioni niz sa podacima gde je moguće proširiti niz još dublje.
-- https://antistereotip.net/next/#matrix
-- **next** engine je engine sledeće generacije i biće povezan sa engine up-om
+
 
 ### Matrice
 
