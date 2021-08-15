@@ -72,8 +72,8 @@ sudo chown -R www-data:www-data /var/www/html/
 
 ### Matrice
 
--Dvodimenzionalni niz se u praktičnom programiranju naziva i matrica. Niz može biti jednodimenzionalan (jednostavno niz), dvodimenzionalan (matrica - zbog analogije sa istoimenim matematičkim pojmom), i višedimenzionalan (kocka, četvorodimenzionalna kocka itd.).
--Ako imamo matricu M dimenzija 2 x 8, njeni indexi su organizovani kao u tabeli navedenoj ispod:
+- Dvodimenzionalni niz se u praktičnom programiranju naziva i matrica. Niz može biti jednodimenzionalan (jednostavno niz), dvodimenzionalan (matrica - zbog analogije sa istoimenim matematičkim pojmom), i višedimenzionalan (kocka, četvorodimenzionalna kocka itd.).
+- Ako imamo matricu M dimenzija 2 x 8, njeni indexi su organizovani kao u tabeli navedenoj ispod:
 <pre>
 M(1,1), M(1,2), M(1,3), M(1,4), M(1,5), M(1,6), M(1,7), M(1,8)
 M(2,1), M(2,2), M(2,3), M(2,4), M(2,5), M(2,6), M(2,7), M(2,8)
