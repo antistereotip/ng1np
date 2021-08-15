@@ -1,4 +1,5 @@
-## Engine UP - Ng1np
+## Engine UP - Ng1np.
+#### Razvojni operativni sistem je Debian, dok je za sada programski jezik PHP.
 <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
 
 - https://usk.rs/ng1np/
