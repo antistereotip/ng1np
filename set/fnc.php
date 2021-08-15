@@ -1,5 +1,6 @@
 <?php
-#--------funkcije engina-----------#
+#--------FUNKCIJE ENGINE-A-----------#
+
 
 #--------racuna velicinu foldera-----------#
 function folderSize($dir){
@@ -19,8 +20,12 @@ $dir_array = scandir($dir);
  }
 return $count_size;
 }
+
+#-----upotreba funkcije-----#
 //$folder_name = "./";
 //echo folderSize($folder_name);
+
+
 
 
 #--------kompresuj_stranicu---------#
@@ -41,6 +46,25 @@ function kompresija($buffer) {
     return $buffer;
 }
 
+#-----upotreba funkcije-----#
 //ob_start("kompresija");
+
+
+
+#--------dinamicko kreiranje HTML tabele---------#
+function kreirajTabelu($data) {
+	echo "<table border=1>";
+	reset($data); // pomera interni pokazivac niza na pocetak
+	$vrednost=current($data);
+	while($vrednost) {
+		echo "<tr><td>$vrednost</td></tr>\n";
+		$vrednost=next($data);
+	}
+	echo "</table>";
+}
+
+#-----upotreba funkcije-----#
+//$niz = array('data1', 'data2', 'data3');
+//kreirajTabelu($niz);
 
 
