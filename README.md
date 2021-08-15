@@ -25,6 +25,8 @@ B.I.
 <p>
 <img src="https://github.com/antistereotip/ng1np/blob/main/models.png" width="500" />  
 </p>
+- Budućnost Engine UP-a biće platforma u potpunom vlasništvu korisnika. Ideja je da ostane minimalnog footprint-a a da istovremeno bude i kompleksan i modularan. 
+- Svaki modul koj korisnik bude dodavao postojaće u repozitorijumu i povlačiće se na željeno mesto `clone` komandom.
 
 
 ### Upotreba:
