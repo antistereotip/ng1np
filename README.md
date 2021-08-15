@@ -70,6 +70,30 @@ sudo chown -R www-data:www-data /var/www/html/
 - https://antistereotip.net/next/#matrix
 - **next** engine je engine sledeće generacije i biće povezan sa engine up-om
 
+### Matrice
+
+-Dvodimenzionalni niz se u praktičnom programiranju naziva i matrica. Niz može biti jednodimenzionalan (jednostavno niz), dvodimenzionalan (matrica - zbog analogije sa istoimenim matematičkim pojmom), i višedimenzionalan (kocka, četvorodimenzionalna kocka itd.).
+-Ako imamo matricu M dimenzija 2 x 8, njeni indexi su organizovani kao u tabeli navedenoj ispod:
+<pre>
+M(1,1), M(1,2), M(1,3), M(1,4), M(1,5), M(1,6), M(1,7), M(1,8)
+M(2,1), M(2,2), M(2,3), M(2,4), M(2,5), M(2,6), M(2,7), M(2,8)
+</pre>
+- Matrice s istim brojem redova i kolona nazivaju se kvadratne. Kvadratna matrica ima glavnu i sporednu dijagonalu. Primer kvadratne matrice na primeru ispod:
+<pre>
+M(1,1), M(1,2), M(1,3), M(1,4)
+M(2,1), M(2,2), M(2,3), M(2,4)
+M(3,1), M(3,2), M(3,3), M(3,4)
+M(4,1), M(4,2), M(4,3), M(4,4)
+</pre>
+- Šta kaže matematika ? Horizontalne linije u matrici se nazivaju vrstama, a vertikalne kolonama matrice. Matrica sa m vrsta i n kolona se naziva m-sa-n matricom (kaže se i zapisuje da je formata m×n) a m i n su dimenzije matrice.
+- Imamo dve matrice, vektor vrste, na primer: M = [1, 2, 3] - matrica 1 x 3, zatim R = [0, 2, 4] - matrica 1 x 3. Želimo da ih saberemo. Primer kako sabiramo matrice je ispod:
+<pre>
+[1, 2, 3] + [0, 2, 4] = [ 1 + 0, 2 + 2, 3 + 4] = [1, 4, 7]
+</pre>
+- Da bi ste razumeli matrice i njihovu upotrebu u računarstvu, moraćete dublje u zečiju rupu. Down The Rabbit Hole.
+
+
+
 ### TODO:
 
 - Napisati paralelno kod engine up-a u **LISP**-u.
