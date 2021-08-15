@@ -26,7 +26,7 @@ B.I.
 <img src="https://github.com/antistereotip/ng1np/blob/main/models.png" width="500" />  
 </p>
 - Budućnost Engine UP-a biće platforma u potpunom vlasništvu korisnika. Ideja je da ostane minimalnog footprint-a a da istovremeno bude i kompleksan i modularan. 
-- Svaki modul koj korisnik bude dodavao postojaće u repozitorijumu i povlačiće se na željeno mesto `clone` komandom.
+- Svaki modul koj korisnik bude dodavao postojaće u repozitorijumu i povlačiće se na željeno mesto "clone" komandom.
 
 
 ### Osnovna Upotreba:
@@ -36,7 +36,8 @@ B.I.
 - sudo chown -R www-data:www-data /var/www/html/ng1np/
 - U browseru kucati sledeću adresu: http://localhost/ng1np/
 
-#### Github Zaobilazno Rešenje ukoliko radite u Web GUI okruženju. Ovaj princip se ne preporučuje. Ovo je samo podsetnik komandi kao `hardcode`.
+#### Github Zaobilazno Rešenje ukoliko radite u Web GUI okruženju. Ovaj princip se ne preporučuje. Ovo je samo podsetnik komandi kao "hardcode". Ovaj metod se preporučuje izuzetno lenjim ljudima od trenutka kada je Github uneo access token umesto lozinke :)
+
 - cd /home/user/Public/github/
 - sudo rm -rf ng1np/
 - git clone https://github.com/antistereotip/ng1np
