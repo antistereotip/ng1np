@@ -28,6 +28,7 @@ B.I.
 </p>
 - Budućnost Engine UP-a biće platforma u potpunom vlasništvu korisnika. Ideja je da ostane minimalnog footprint-a a da istovremeno bude i kompleksan i modularan. 
 - Svaki modul koj korisnik bude dodavao postojaće u repozitorijumu i povlačiće se na željeno mesto "clone" komandom.
+- Moguće je da ukoliko korisnik generiše konstantno novi sadržaj, da neke od vrednosti budu upravo bajtovi isčitani iz tog sadržaja, te će korisnički ID prilikom svake izmene (gore dole minimum 1 bajt), imati zapravo različit token i biće uvek korak ispred potencijalnog napada na njegov nalog.
 
 
 ### Osnovna Upotreba:
