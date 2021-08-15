@@ -31,21 +31,26 @@ B.I.
 
 ### Osnovna Upotreba:
 
-- cd /var/www/html/
-- sudo git clone https://github.com/antistereotip/ng1np
-- sudo chown -R www-data:www-data /var/www/html/ng1np/
+<pre>
+cd /var/www/html/
+sudo git clone https://github.com/antistereotip/ng1np
+sudo chown -R www-data:www-data /var/www/html/ng1np/
+</pre>
+
 - U browseru kucati sledeću adresu: http://localhost/ng1np/
 
 #### Github Zaobilazno Rešenje 
 
 - Ukoliko radite u Web GUI okruženju ova prečica može da štedi vreme ukoliko prepoznajete obrazac. Ovaj princip se ne preporučuje. Ovo je samo podsetnik komandi kao "hardcode". Ovaj metod se preporučuje izuzetno lenjim ljudima od trenutka kada je Github uneo access token umesto lozinke :)
 
-- cd /home/user/Public/github/
-- sudo rm -rf ng1np/
-- git clone https://github.com/antistereotip/ng1np
-- sudo rm -rf /var/www/html/ng1np/
-- sudo cp -pr /home/user/Public/github/ng1np/ /var/www/html/
-- sudo chown -R www-data:www-data /var/www/html/
+<pre>
+cd /home/user/Public/github/
+sudo rm -rf ng1np/
+git clone https://github.com/antistereotip/ng1np
+sudo rm -rf /var/www/html/ng1np/
+sudo cp -pr /home/user/Public/github/ng1np/ /var/www/html/
+sudo chown -R www-data:www-data /var/www/html/
+</pre>
 
 ### Engine UP Logika:
 
