@@ -1,6 +1,8 @@
 <?php
 #--------FUNKCIJE ENGINE-A-----------#
 
+#---nema direktnog pristupa funkcijama---#
+defined('ROOT_DIR') or exit('No direct script access allowed');
 
 #--------racuna velicinu foldera-----------#
 function folderSize($dir){
