@@ -29,14 +29,14 @@ B.I.
 - Svaki modul koj korisnik bude dodavao postojaće u repozitorijumu i povlačiće se na željeno mesto `clone` komandom.
 
 
-### Upotreba:
+### Osnovna Upotreba:
 
 - cd /var/www/html/
 - sudo git clone https://github.com/antistereotip/ng1np
 - sudo chown -R www-data:www-data /var/www/html/ng1np/
 - U browseru kucati sledeću adresu: http://localhost/ng1np/
 
-### Github Zaobilazno Resenje
+#### Github Zaobilazno Rešenje ukoliko radite u Web GUI okruženju. Ovaj princip se ne preporučuje. Ovo je samo podsetnik komandi kao `hardcode`.
 - cd /home/user/Public/github/
 - sudo rm -rf ng1np/
 - git clone https://github.com/antistereotip/ng1np
