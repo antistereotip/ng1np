@@ -22,13 +22,6 @@ B.I.
 ### Engine UP Hack Matrix Modularni Softver. Jednostavan PHP Engine.
 
 - Jednostavan Engine napisan za početak u PHP-u. Veoma prost za korišćenje i vrlo proširiv sa podacima i slobodom da se stilizuje po potrebi. Stilovi se nalaze u inc/header.php a tu se i nalazi jednostavna funkcija za random prikazivanje slika na stranicama. Glavna logika engine-a je **rad sa nizovima**. Nizovi su multidimenzioni i sadrže podatke potrebne za web stranice. Nizovi mogu biti proširivi, a templejti se mogu proširiti dokle god ide dubina nizova. Korišćenjem smart .tpl logike dobija se čista forma pokretača iz nizova.
-- Model razvoja bi trebao da ide u smeru distribuiranog modela (UGC sa potpunim integritetom i autoritetom), kao C na slici ispod:
-<p>
-<img src="https://github.com/antistereotip/ng1np/blob/main/models.png" width="500" />  
-</p>
-- Budućnost Engine UP-a biće platforma u potpunom vlasništvu korisnika. Ideja je da ostane minimalnog footprint-a a da istovremeno bude i kompleksan i modularan. 
-- Svaki modul koj korisnik bude dodavao postojaće u repozitorijumu i povlačiće se na željeno mesto "clone" komandom.
-- Moguće je da ukoliko korisnik generiše konstantno novi sadržaj, da neke od vrednosti budu upravo bajtovi isčitani iz tog sadržaja, te će korisnički ID prilikom svake izmene (gore dole minimum 1 bajt), imati zapravo različit token i biće uvek korak ispred potencijalnog napada na njegov nalog.
 
 
 ### Osnovna Upotreba:
@@ -71,6 +64,20 @@ sudo chown -R www-data:www-data /var/www/html/
 - Pokušaću da razvijem **engine up** u potpuno autonomni engine koj može raditi kao matrica pisana u bilo kom jeziku. **set/** **lib/** **up/** je modularna matrica.
 - Moduli će biti svedeni na minimum kodnog prostora, ostaviću više prostora za developere koji žele da ga prošire.
 - Matrica koja je prisutna u ovom kodu je multidimenzioni niz sa podacima gde je moguće proširiti niz još dublje.
+
+### Budućnost engine-a
+
+- Model razvoja bi trebao da ide u smeru distribuiranog modela (UGC sa potpunim integritetom i autoritetom), kao C na slici ispod:
+<p>
+<img src="https://github.com/antistereotip/ng1np/blob/main/models.png" width="500" />  
+</p>
+- Budućnost Engine UP-a biće platforma u potpunom vlasništvu korisnika. Ideja je da ostane minimalnog footprint-a a da istovremeno bude i kompleksan i modularan. 
+- Svaki modul koj korisnik bude dodavao postojaće u repozitorijumu i povlačiće se na željeno mesto "clone" komandom.
+- Modul može biti od svega nekoliko bajtova do [n] bajtova (Limit će zavisiti od performansi samog engine-a).
+- Moguće je da ukoliko korisnik generiše konstantno novi sadržaj, da neke od vrednosti budu upravo bajtovi isčitani iz tog sadržaja, te će korisnički ID prilikom svake izmene (gore dole minimum 1 bajt), imati zapravo različit token i biće uvek korak ispred potencijalnog napada na njegov nalog.
+- Jednostavno objašnjenje, korisnik je jedna matrica, definisana po želji, tačnije po sadržaju. I svaki korisnik bi trebao imati različitu matricu, jer ukoliko engine prepozna kopiju, on briše bez ikakvog upozorenja sadržaj nastao nakon već postojećeg. Jedino upozorenje će dobiti korisnik koji kopira sadržaj da će biti sankcionisan ukoliko mu to pređe u praksu.
+- Korisnik će imati opciju da šifruje svoj sadržaj i da bude vidljiv samo onome ko ima ključ. Korisnički ključ se generiše na principu slučajnog uzorka u heksadecimalnom zapisu.
+
 
 
 ### Matrice
