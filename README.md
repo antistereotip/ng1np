@@ -19,12 +19,6 @@ B.I.
 
 ## Hijacking
 
-### Engine UP Hack Matrix Modularni Softver. Jednostavan PHP Engine.
-
-- Jednostavan Engine napisan za početak u PHP-u. Veoma prost za korišćenje i vrlo proširiv sa podacima i slobodom da se stilizuje po potrebi. Stilovi se nalaze u **inc/header.php** a tu se i nalazi jednostavna funkcija za random prikazivanje slika na stranicama. Glavna logika engine-a je **rad sa nizovima**. Nizovi su multidimenzioni i sadrže podatke potrebne za web stranice. Nizovi mogu biti proširivi, a templejti se mogu proširiti dokle god ide dubina nizova. Korišćenjem smart .tpl logike dobija se čista forma pokretača iz nizova.
-- Funkcije i klase se nalaze u **set/** folderu.
-
-
 ### Osnovna Upotreba:
 
 <pre>
@@ -56,11 +50,17 @@ sudo chown -R www-data:www-data /var/www/html/
 - lib (Biblioteku)
 - up (Na Web)
 
-### KISS - Keep It Simple Stupid (Zadrži glupavu jednostavnost)
+##### KISS - Keep It Simple Stupid (Zadrži glupavu jednostavnost)
 
-### Dokumentacija na srpskom:
+### Engine UP Hack Matrix Modularni Softver. Jednostavan PHP Engine.
 
-- **index.php** stranica poziva klasu iz foldera **set/** pod nazivom class.php. Ta klasa je zadužena za renderovanje stranice. Folder **lib/** ima stranice sa sintaksom page.php i unutra su nizovi koji su zapravo varijable. Zatim poslednji u logici je folder **up/** a u njemu se nalaze stranice sa sintaksom page.tpl i to su zapravo okviri u kojima se kroz petlje prikazuju nizovi iz foldera **lib/**. Nazive Engine UP je radi logike SETUJ **(set)** BIBLIOTEKU **(lib)** na WEB **(up)**. Ovo je zapravo jednostavan pattern ili matrica koja ima svoju logiku. Ako želite nove stranice, potrebno je u index.php u niz $pages dodati imena stranice, zatim dodati u **lib/** stranicu sa ekstenzijom .php i u **up/** folder dodati stranicu sa istim imenom ekstenzije .tpl. 
+- Jednostavan Engine napisan za početak u PHP-u. Veoma prost za korišćenje i vrlo proširiv sa podacima i slobodom da se stilizuje po potrebi. Stilovi se nalaze u **inc/header.php** a tu se i nalazi jednostavna funkcija za random prikazivanje slika na stranicama. Glavna logika engine-a je **rad sa nizovima**. Nizovi su multidimenzioni i sadrže podatke potrebne za web stranice. Nizovi mogu biti proširivi, a templejti se mogu proširiti dokle god ide dubina nizova. Korišćenjem smart .tpl logike dobija se čista forma pokretača iz nizova.
+- Funkcije i klase se nalaze u **set/** folderu.
+
+
+### Kako to radi ?
+
+- **index.php** stranica poziva klasu iz foldera **set/** pod nazivom **class.php**. Ta klasa je zadužena za renderovanje stranice. Folder **lib/** ima stranice sa sintaksom **stranica.php** i unutra su nizovi koji su zapravo varijable. Zatim poslednji u logici je folder **up/** a u njemu se nalaze stranice sa sintaksom **stranica.tpl** i to su zapravo okviri u kojima se kroz petlje prikazuju nizovi iz foldera **lib/**. Nazive Engine UP je radi logike SETUJ **(set)** BIBLIOTEKU **(lib)** na WEB **(up)**. Ovo je zapravo jednostavan pattern ili matrica koja ima svoju logiku. Ako želite nove stranice, potrebno je u **index.php** u niz **$pages** dodati imena stranice, zatim dodati u **lib/** stranicu sa ekstenzijom **.php** i u **up/** folder dodati stranicu sa istim imenom ekstenzije **.tpl**. 
 - Engine je jednostavan i postoji razumna logika i u osnovnoj verziji nema bazu podataka, već je sve u nizovima u folderu **lib/**. Folder **up/** je nešto poput view u mvc patternu, dok je **lib/** nešto kao model a **set/** je nešto poput controllera. Ovo nije mvc pattern već custom logika koju je moguće nadograditi bazom podataka ali pretpostavka da za srednje sajtove nizovi najbrže hendluju podatke i nije potrebna relaciona baza podataka. Ukoliko želite feature koj radi sa bazom podataka, taj osnovni modul se nalazi u **database** folderu.
 - Razvoj **engine up-a** ide u potpuno autonomnom smeru i može raditi kao matrica pisana u bilo kom jeziku. 
 - **set/** -> **lib/** -> **up/** je modularna matrica.
@@ -74,9 +74,9 @@ sudo chown -R www-data:www-data /var/www/html/
 <img src="https://github.com/antistereotip/ng1np/blob/main/models.png" width="500" />  
 </p>
 - Budućnost Engine UP-a biće platforma u potpunom vlasništvu korisnika. Ideja je da ostane minimalnog footprint-a a da istovremeno bude i kompleksan i modularan. 
-- Svaki modul koj korisnik bude dodavao postojaće u repozitorijumu i povlačiće se na željeno mesto "clone" komandom.
+- Svaki modul koj korisnik bude dodavao postojaće u repozitorijumu i povlačiće se na željeno mesto **clone** komandom.
 - Modul može biti od svega nekoliko bajtova do [n] bajtova (Limit će zavisiti od performansi samog engine-a).
-- Moguće je da ukoliko korisnik generiše konstantno novi sadržaj, da neke od vrednosti budu upravo bajtovi isčitani iz tog sadržaja, te će korisnički ID prilikom svake izmene (gore dole minimum 1 bajt), imati zapravo različit token i biće uvek korak ispred potencijalnog napada na njegov nalog.
+- Moguće je da ukoliko korisnik generiše konstantno novi sadržaj, da neke od vrednosti budu upravo bajtovi isčitani iz tog sadržaja, te će **korisnički ID** prilikom svake izmene (gore dole minimum 1 bajt), imati zapravo različit token i biće uvek korak ispred potencijalnog napada na njegov nalog.
 - Jednostavno objašnjenje, korisnik je jedna matrica, definisana po želji, tačnije po sadržaju. I svaki korisnik bi trebao imati različitu matricu, jer ukoliko engine prepozna kopiju, on briše bez ikakvog upozorenja sadržaj nastao nakon već postojećeg. Jedino upozorenje će dobiti korisnik koji kopira sadržaj da će biti sankcionisan ukoliko mu to pređe u praksu.
 - Korisnik će imati opciju da šifruje svoj sadržaj i da bude vidljiv samo onome ko ima ključ. Korisnički ključ se generiše na principu slučajnog uzorka u heksadecimalnom zapisu.
 
@@ -103,7 +103,10 @@ M(4,1), M(4,2), M(4,3), M(4,4)
 </pre>
 - Da bi ste razumeli matrice i njihovu upotrebu u računarstvu, moraćete dublje u zečiju rupu. Down The Rabbit Hole.
 
+### Podrška
 
+- Engine UP je softver otvorenog koda i korisnik ga sam setuje, što znači da je i slobodan i besplatan.
+- Ukoliko stvar prepuštate našoj podršci, naplaćuje se satnica podrške ili dogovor u okviru nekog perioda.
 
 ### TODO:
 
