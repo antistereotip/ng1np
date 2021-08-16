@@ -79,6 +79,7 @@ sudo chown -R www-data:www-data /var/www/html/
 - Moguće je da ukoliko korisnik generiše konstantno novi sadržaj, da neke od vrednosti budu upravo bajtovi isčitani iz tog sadržaja, te će **korisnički ID** prilikom svake izmene (gore dole minimum 1 bajt), imati zapravo različit token i biće uvek korak ispred potencijalnog napada na njegov nalog.
 - Jednostavno objašnjenje, korisnik je jedna matrica, definisana po želji, tačnije po sadržaju. I svaki korisnik bi trebao imati različitu matricu, jer ukoliko engine prepozna kopiju, on briše bez ikakvog upozorenja sadržaj nastao nakon već postojećeg. Jedino upozorenje će dobiti korisnik koji kopira sadržaj da će biti sankcionisan ukoliko mu to pređe u praksu.
 - Korisnik će imati opciju da šifruje svoj sadržaj i da bude vidljiv samo onome ko ima ključ. Korisnički ključ se generiše na principu slučajnog uzorka u heksadecimalnom zapisu.
+- Dashboard ili korisnički panel će imati sve neophodne opcije za potpunu privatnost i integritet. Biće uključena opcija trajnog brisanja gde ne ostaje ni senka od samog sadržaja. Takođe biće dostupna i cloud backup opcija koja bi trebala da prenosi podatke sigurnim tunelom.
 
 
 ### Matrice
