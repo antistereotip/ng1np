@@ -1,5 +1,5 @@
 <?php
-$db = new mysqli('localhost', 'user', 'pass', 'database');
+$db = new mysqli('localhost', 'antister_ng1np', 'loginordie124', 'antister_ng1np');
 if ($db -> connect_errno) {
   die('Connect Error: '.$db -> connect_errno);
 }
@@ -15,7 +15,7 @@ else {
     }
   }
   else {
-    //echo 'Nema rezultata';
+    echo '<p><a href="../">Home</a></p>';
     echo '<form>	
         <input name="up" method="get" type="search" placeholder="Ukucaj komandu " autofocus>
         <input type="submit" value="UNESI" class="button">

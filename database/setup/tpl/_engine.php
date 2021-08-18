@@ -17,6 +17,7 @@
   </head>
   <body>
     <header>
+      <?php echo '<p><a href="../">Home</a></p>'; ?>
       <form>	
         <input name="up" method="get" type="search" placeholder="Ukucaj komandu " autofocus>
         <input type="submit" value="UNESI" class="button">
@@ -24,6 +25,7 @@
     </header>
 
     <?php
+      
       echo '<h2>' . $row->title . '</h2>'; 
       echo '<p>' . $row->url . '</p>'; 
       echo '<img src="' . $row->img . '"><br>'; 
