@@ -1,5 +1,8 @@
 <?php
-#--------funkcije engina-----------#
+#--------FUNKCIJE ENGINE-A-----------#
+
+#---nema direktnog pristupa funkcijama---#
+defined('ROOT_DIR') or exit('No direct script access allowed');
 
 #--------racuna velicinu foldera-----------#
 function folderSize($dir){
@@ -19,8 +22,12 @@ $dir_array = scandir($dir);
  }
 return $count_size;
 }
+
+#-----upotreba funkcije-----#
 //$folder_name = "./";
 //echo folderSize($folder_name);
+
+
 
 
 #--------kompresuj_stranicu---------#
@@ -41,6 +48,11 @@ function kompresija($buffer) {
     return $buffer;
 }
 
+#-----upotreba funkcije-----#
 //ob_start("kompresija");
+
+
+
+
 
 
