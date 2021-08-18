@@ -1,9 +1,4 @@
 <?php
-/*
-Author: Javed Ur Rehman
-Website: http://www.allphptricks.com/
-*/
-
 
 $con = mysqli_connect("localhost","user","pass","database");
 // Check connection
