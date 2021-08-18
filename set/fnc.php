@@ -53,20 +53,6 @@ function kompresija($buffer) {
 
 
 
-#--------dinamicko kreiranje HTML tabele---------#
-function kreirajTabelu($data) {
-	echo "<table border=1>";
-	reset($data); // pomera interni pokazivac niza na pocetak
-	$vrednost=current($data);
-	while($vrednost) {
-		echo "<tr><td>$vrednost</td></tr>\n";
-		$vrednost=next($data);
-	}
-	echo "</table>";
-}
 
-#-----upotreba funkcije-----#
-//$niz = array('data1', 'data2', 'data3');
-//kreirajTabelu($niz);
 
 
