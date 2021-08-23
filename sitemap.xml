@@ -1,18 +1,89 @@
-<?php 
-header("Content-Type: application/xml; charset=utf-8"); 
-echo '<?xml version="1.0" encoding="UTF-8"?>'.PHP_EOL; 
-echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">' .PHP_EOL; 
- 
-function urlElement($url) {
-echo '<url>'.PHP_EOL; 
-echo '<loc>'.$url.'</loc>'. PHP_EOL; 
-echo '<changefreq>weekly</changefreq>'.PHP_EOL; 
-echo '</url>'.PHP_EOL;
-} 
- 
-urlElement('http://localhost/index.php?route=default'); 
-urlElement('http://localhost/index.php?route=second'); 
-urlElement('http://localhost/index.php?route=third'); 
-echo '</urlset>'; 
-?>
+  GNU nano 3.2                                                    sitemap.xml                                                               
 
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://usk.rs/ng1np/</loc>
+  <lastmod>2021-08-23T07:43:23+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://usk.rs/ng1np/?route=default</loc>
+  <lastmod>2021-08-23T07:43:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://usk.rs/ng1np/?route=second</loc>
+  <lastmod>2021-08-23T07:43:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://usk.rs/ng1np/?route=third</loc>
+  <lastmod>2021-08-23T07:43:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://usk.rs/ng1np/?route=fourth</loc>
+  <lastmod>2021-08-23T07:43:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://usk.rs/ng1np/?route=fifth</loc>
+  <lastmod>2021-08-23T07:43:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://usk.rs/ng1np/database/</loc>
+  <lastmod>2021-08-23T07:43:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://usk.rs/ng1np/?route=0000</loc>
+  <lastmod>2021-08-23T07:43:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://usk.rs/ng1np/?route=1111</loc>
+  <lastmod>2021-08-23T07:43:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://usk.rs/ng1np/?route=1000</loc>
+  <lastmod>2021-08-23T07:43:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://usk.rs/ng1np/?route=1011</loc>
+  <lastmod>2021-08-23T07:43:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://usk.rs/ng1np/?route=1010</loc>
+  <lastmod>2021-08-23T07:43:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://usk.rs/ng1np/?route=0101</loc>
+  <lastmod>2021-08-23T07:43:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://usk.rs/ng1np/?route=0001</loc>
+  <lastmod>2021-08-23T07:43:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://usk.rs/ng1np/?route=1101</loc>
+  <lastmod>2021-08-23T07:43:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
