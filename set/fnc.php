@@ -53,7 +53,7 @@ function kompresija($buffer) {
 
 
 #--------broji_stranice_u_xml_mapi-----------#
-function count_pages() {
+function sitemapBrojacStranica() {
   $xmlDoc=new DOMDocument(); 
   $xmlDoc->load("sitemap.xml");
   $count = $xmlDoc->getElementsByTagName('loc')->length; 
