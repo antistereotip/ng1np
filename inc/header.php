@@ -20,7 +20,7 @@ $pictures = glob($dir."*.png");
 //var_dump($pictures);
 shuffle($pictures);
 
-#---prikazivanje 4 random slike iz niza $pictures---#
+#---prikazivanje 5 random slike iz niza $pictures---#
 for ($i = 0; $i < 5; $i++) {
     echo "<img src='". $pictures[$i] ."' height='130'/>";
 }
