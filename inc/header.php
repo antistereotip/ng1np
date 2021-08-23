@@ -26,4 +26,4 @@ for ($i = 0; $i < 5; $i++) {
 }
 ?>
 <p></p>
-<p><?php count_pages(); ?></p>
+<p><?php sitemapBrojacStranica(); ?></p>
