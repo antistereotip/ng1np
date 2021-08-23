@@ -7,4 +7,5 @@
 <li><a href="./database/">[  Database  ]</a></li>
 </nav>
 <p></p>
+<p>&#8594; <?php sitemapBrojacStranica(); ?></p>
 
