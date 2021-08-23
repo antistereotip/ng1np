@@ -52,6 +52,21 @@ function kompresija($buffer) {
 //ob_start("kompresija");
 
 
+#--------broji_stranice_u_xml_mapi-----------#
+function count_pages() {
+  $xmlDoc=new DOMDocument(); 
+  $xmlDoc->load("sitemap.xml");
+  $count = $xmlDoc->getElementsByTagName('loc')->length; 
+  echo  'Pages in sitemap: ' . $count . '';
+}
+
+#----upotreba funkcije----#
+//count_pages();
+
+
+
+
+
 
 
 
