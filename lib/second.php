@@ -8,7 +8,7 @@ $eng->author = 'hightech';
 $eng->description = '1111';
 $eng->title = '1111';
 
-$eng->sadrzaj = array( 
+$eng->content = array( 
 	array(
 	"proces1" => "1001",
 	"proces2" => "0110",
@@ -29,7 +29,7 @@ $eng->sadrzaj = array(
 	)
 );
 
-$eng->strana = array( 
+$eng->sidebar = array( 
         array(
         "server1" => "0001",
         "server2" => "1110",
