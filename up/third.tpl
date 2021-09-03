@@ -22,7 +22,7 @@ echo '</p>';
 ?>
 
 <section>
-<?php foreach ($this->sadrzaj as $row) { ?>
+<?php foreach ($this->content as $row) { ?>
 	<div>
 	<h1> Proces 1: <?php echo $row['proces1']; ?></h1>
 	<h2> Proces 2: <?php echo $row['proces2']; ?><h2>
@@ -33,7 +33,7 @@ echo '</p>';
 </section>
 
 <aside>
-<?php foreach ($this->strana as $row) { ?>
+<?php foreach ($this->sidebar as $row) { ?>
         <div>
         <h1> Server 1: <?php echo $row['server1']; ?></h1>
         <h2> Server 2: <?php echo $row['server2']; ?><h2>
