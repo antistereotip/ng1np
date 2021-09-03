@@ -8,7 +8,7 @@ $eng->author = 'rootwalker';
 $eng->description = '0110';
 $eng->title = '1001';
 
-$eng->sadrzaj = array( 
+$eng->content = array( 
 	array(
 	"proces1" => "0110",
 	"proces2" => "1111",
@@ -29,7 +29,7 @@ $eng->sadrzaj = array(
 	)
 );
 
-$eng->strana = array( 
+$eng->sidebar = array( 
         array(
         "server1" => "0010",
         "server2" => "1100",
