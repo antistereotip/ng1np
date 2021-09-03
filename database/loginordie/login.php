@@ -38,6 +38,7 @@
 <input name="submit" type="submit" value="Login" />
 </form>
 <p>Not registered yet? <a href='registration.php'>Register Here</a></p>
+<p>Back to <a href='https://usk.rs/ng1np/'>Home</a></p>
 
 <br /><br />
 </div>

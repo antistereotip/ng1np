@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="inc/stil.css">
 </head>
 <body>
-<h1>Uprava is Comming. All About Universe. Kingest Regards. Admin.</h1>
+<h1>Uprava is Coming. All About Universe. Kingest Regards. Admin.</h1>
 <h2>Engine UP. Simple PHP Engine - Ng1np.</h2>
 <p><marquee>Everything You Should Know About Universe. Ask ng1np Admin. Nick: hightech. E-mail: threewhiterabbits [at] protonmail [dot] com</marquee></p>
 <?php
