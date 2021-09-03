@@ -9,7 +9,7 @@ $eng->author = 'admin';
 $eng->description = '0000';
 $eng->title = '0000';
 
-$eng->sadrzaj = array( 
+$eng->content = array( 
 	array(
 	"proces1" => "0000",
 	"proces2" => "0110",
@@ -30,7 +30,7 @@ $eng->sadrzaj = array(
 	)
 );
 
-$eng->strana = array( 
+$eng->sidebar = array( 
         array(
         "server1" => "1000",
         "server2" => "0111",
