@@ -1,5 +1,6 @@
 <?php
-$db = new mysqli('localhost', 'antister_ng1np', 'loginordie124', 'antister_ng1np');
+#----ovde postavite vase pristupne podatke----#
+$db = new mysqli('localhost', 'user', 'pass', 'database');
 if ($db -> connect_errno) {
   die('Connect Error: '.$db -> connect_errno);
 }
