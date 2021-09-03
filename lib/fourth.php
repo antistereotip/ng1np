@@ -9,7 +9,7 @@ $eng->author = 'antistereotip';
 $eng->description = '0000';
 $eng->title = '0000';
 
-$eng->sadrzaj = array( 
+$eng->content = array( 
 	array(
 	"proces1" => "1111",
 	"proces2" => "0110",
@@ -30,7 +30,7 @@ $eng->sadrzaj = array(
 	)
 );
 
-$eng->strana = array( 
+$eng->sidebar = array( 
         array(
         "server1" => "0111",
         "server2" => "1000",
