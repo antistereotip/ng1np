@@ -1,6 +1,6 @@
 <?php
-
-$con = mysqli_connect("localhost","antister_ng1np","loginordie124","antister_ng1np");
+#----ovde postavite vase pristupne podatke----#
+$con = mysqli_connect("localhost","user","pass","database");
 // Check connection
 if (mysqli_connect_errno())
   {
