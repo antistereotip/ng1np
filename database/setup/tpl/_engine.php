@@ -25,18 +25,11 @@
     </header>
 
     <?php
-<<<<<<< HEAD
       
       echo '<h2>' . $row->title . '</h2>'; 
       echo '<p>' . $row->url . '</p>'; 
       echo '<p>' . $row->desc . '</p><br>'; 
       
-=======
-    echo '<h2>' . $row->title . '</h2>'; 
-    echo '<p>' . $row->url . '</p>'; 
-    echo '<p>' . $row->desc . '</p><br>';
->>>>>>> 330d74dc3c7f6d93ba8f34c82630e9fa418a3492
     ?>
-    
   </body>
 </html>

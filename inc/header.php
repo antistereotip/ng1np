@@ -10,8 +10,8 @@
 <link rel="stylesheet" href="inc/stil.css">
 </head>
 <body>
-<h1>Uprava is Coming. All About Universe. Kingest Regards. Admin.</h1>
-<h2>Engine UP. Simple PHP Engine - Ng1np.</h2>
+<h1 class="animacija">Uprava is Coming. All About Universe. Kingest Regards. Admin.</h1>
+<h2 class="animacija razmak_dole">Engine UP. Simple PHP Engine - Ng1np.</h2>
 <p><marquee>Everything You Should Know About Universe. Ask ng1np Admin. Nick: hightech. E-mail: threewhiterabbits [at] protonmail [dot] com</marquee></p>
 <?php
 $dir = "./pic/";
@@ -19,11 +19,14 @@ $dir = "./pic/";
 $pictures = glob($dir."*.png");
 //var_dump($pictures);
 shuffle($pictures);
-
+?>
+<div class="animacija razmak_gore">
+<?php
 #---prikazivanje 5 random slike iz niza $pictures---#
 for ($i = 0; $i < 5; $i++) {
     echo "<img src='". $pictures[$i] ."' height='130'/>";
 }
 ?>
+</div>
 <p></p>
 

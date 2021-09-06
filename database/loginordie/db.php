@@ -1,5 +1,5 @@
 <?php
-#----ovde postavite vase pristupne podatke----#
+
 $con = mysqli_connect("localhost","user","pass","database");
 // Check connection
 if (mysqli_connect_errno())

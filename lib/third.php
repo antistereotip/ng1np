@@ -17,15 +17,21 @@ $eng->content = array(
 	),
 	array(
 	"proces1" => "1111",
-        "proces2" => "0110",
-        "proces3" => "1001",
-        "proces4" => "0000"
+    "proces2" => "0110",
+    "proces3" => "1001",
+    "proces4" => "0000"
+	),
+	array(
+	"proces1" => "0000",
+    "proces2" => "0110",
+    "proces3" => "1001",
+    "proces4" => "1111"
 	),
 	array(
 	"proces1" => "1001",
-        "proces2" => "0000",
-        "proces3" => "0110",
-        "proces4" => "1111"
+    "proces2" => "0000",
+    "proces3" => "0110",
+    "proces4" => "1111"
 	)
 );
 
@@ -33,6 +39,16 @@ $eng->sidebar = array(
         array(
         "server1" => "0010",
         "server2" => "1100",
+        "server3" => "1010"
+        ),
+        array(
+        "server1" => "1010",
+        "server2" => "1110",
+        "server3" => "1011"
+        ),
+        array(
+        "server1" => "0110",
+        "server2" => "0100",
         "server3" => "1010"
         ),
         array(
