@@ -1,5 +1,5 @@
 ## FIRST TO DO:
-Debug all errors !!!
+Debug all errors !!! Every error_log file !!!
 
 ## Engine UP - Ng1np.
 #### Razvojni operativni sistem je Debian (GNU/Linux), dok je za sada programski jezik PHP.
